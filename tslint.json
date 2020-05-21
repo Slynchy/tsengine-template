@@ -1,0 +1,54 @@
+{
+    "defaultSeverity": "error",
+    "extends": "./node_modules/tslint/lib/configs/recommended",
+    "jsRules": {},
+    "rules": {
+        "ordered-imports": false,
+        "no-console": false,
+        "ban-types": false,
+        "variable-name": false,
+        "import-spacing": false,
+        "no-empty": false,
+        "trailing-comma": {
+            "multiline": {},
+            "singleline": {}
+        },
+        "whitespace": false,
+        "typedef-whitespace": [
+            true,
+            {
+                "call-signature": "nospace",
+                "index-signature": "nospace",
+                "parameter": "nospace",
+                "property-declaration": "nospace",
+                "variable-declaration": "nospace"
+            },
+            {
+                "call-signature": "space",
+                "index-signature": "ignore",
+                "parameter": "space",
+                "property-declaration": "space",
+                "variable-declaration": "space"
+            }
+        ],
+        "curly": [true, "ignore-same-line"],
+        "member-ordering": false,
+        "object-literal-shorthand": false,
+        "interface-name": false,
+        "no-any": true,
+        "typedef": [
+            true,
+            "call-signature",
+            "arrow-call-signature",
+            "parameter",
+            "arrow-parameter",
+            "property-declaration",
+            "variable-declaration",
+            "member-variable-declaration",
+            "object-destructuring",
+            "array-destructuring"
+        ],
+        "object-literal-sort-keys": false
+    },
+    "rulesDirectory": []
+}
