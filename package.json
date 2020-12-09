@@ -10,7 +10,9 @@
   "keywords": [],
   "author": "",
   "license": "UNLICENSED",
-  "dependencies": {},
+  "dependencies": {
+    "three": "^0.123.0"
+  },
   "devDependencies": {
     "copy-webpack-plugin": "^5.0.4",
     "css-loader": "^3.2.0",

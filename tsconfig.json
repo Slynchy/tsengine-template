@@ -1,17 +1,10 @@
 {
   "compilerOptions": {
     "outDir": "./dist/",
-    "baseUrl": "./src",
     "noImplicitAny": true,
     "moduleResolution": "node",
     "module": "commonjs",
     "target": "es5",
-    "jsx": "react-native",
-    "allowJs": true,
-    "sourceMap": true,
-    "paths": {
-      "tsengine": ["../lib/tsengine"]
-    },
-    "typeRoots": [ "./types", "./node_modules/@types"]
+    "sourceMap": true
   }
 }
