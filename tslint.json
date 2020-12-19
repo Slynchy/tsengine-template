@@ -9,6 +9,9 @@
         "variable-name": false,
         "import-spacing": false,
         "no-empty": false,
+        "max-line-length": [true, {
+            "limit": 150
+        }],
         "trailing-comma": {
             "multiline": {},
             "singleline": {}

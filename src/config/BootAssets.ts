@@ -7,4 +7,6 @@ export const BootAssets: Array<{key: string, path: string}> = [
   {key: "bg", path: "sprites/bg.png"},
   {key: "pcharacter", path: "sprites/pcharacter.png"},
   {key: "textbox", path: "sprites/textbox.png"},
+  {key: "thoughtbox", path: "sprites/thoughtbox.png"},
+  {key: "dialoguebox", path: "sprites/dialoguebox.png"},
 ];
